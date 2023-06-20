@@ -3,7 +3,6 @@
 ## Complexity Analysis
 
 * [Page 1](README.md)
-* [Page 3](complexity-analysis/page-3.md)
 
 ## Hash
 
