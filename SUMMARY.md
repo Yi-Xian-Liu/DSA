@@ -19,3 +19,4 @@
 ## Sorting
 
 * [Quick sort](sorting/quick-sort.md)
+* [Merge sort](sorting/merge-sort.md)

@@ -1,12 +1,12 @@
 # Quick sort
 
+<figure><img src="../.gitbook/assets/螢幕擷取畫面 2023-07-01 183357.png" alt=""><figcaption></figcaption></figure>
+
 資料的分佈random且large時，quick sort會比merge sort跟heap sort快一點。
 
 其使用了divide and conquer，藉由選擇一個array內的pivot element，將array分成比pivot小的subarray與比pivot大的subarray之後，再recursively的排序這兩個subarray。因此也被稱作partition-exchange sort。
 
 quick sort為comparison sort，而大部分的實作都使得其不為stable。
-
-<table><thead><tr><th width="213">worst(same element)</th><th width="121">best</th><th width="114">average</th><th width="81">space</th><th>space(in-place)</th></tr></thead><tbody><tr><td>O(n^2)</td><td>O(nlog(n))</td><td>O(nlog(n))</td><td>O(n)</td><td>O(log(n))</td></tr></tbody></table>
 
 ## 演算法
 
