@@ -80,3 +80,15 @@ heap sort通常比quick sort慢，但是heap sort的worst case time complexity�
 且heap sort只用常數的額外空間，但需要有效率的隨機存取才可行。
 
 而quick sort則需要O(nlogn(n))的額外空間。
+
+### merge sort
+
+merge sort跟heap sort相同，也有最壞時間複雜度O(nlog(n))的優勢。
+
+且不像heap sort或quick sort，merge sort為stable sort。
+
+merge sort還可以輕易的被應用在linked list，或儲存在慢速儲存媒體(如硬碟)的array。
+
+雖然quick sort也能應用在linked list上，但無法隨機存取pivot element，導致有差的pivot選擇。
+
+然而，merge sort的主要缺點，是在最佳情況下需要Ω(n)的儲存空間。
