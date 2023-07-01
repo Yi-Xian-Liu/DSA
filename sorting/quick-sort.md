@@ -1,6 +1,6 @@
 # Quick sort
 
-<figure><img src="../.gitbook/assets/螢幕擷取畫面 2023-07-01 183357.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/螢幕擷取畫面 2023-07-01 183357 (1).png" alt=""><figcaption></figcaption></figure>
 
 資料的分佈random且large時，quick sort會比merge sort跟heap sort快一點。
 
