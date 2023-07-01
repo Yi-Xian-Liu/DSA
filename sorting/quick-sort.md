@@ -8,6 +8,18 @@
 
 quick sort為comparison sort，而大部分的實作都使得其不為stable。
 
+## time complexity
+
+| worst  | best       | average    |
+| ------ | ---------- | ---------- |
+| O(n^2) | O(nlog(n)) | O(nlog(n)) |
+
+## space complexity
+
+| 原版   | in-place  |
+| ---- | --------- |
+| O(n) | O(log(n)) |
+
 ## 演算法
 
 ```
