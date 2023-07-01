@@ -8,6 +8,8 @@
 
 quick sort為comparison sort，而大部分的實作都使得其不為stable。
 
+可能是最佳解
+
 ## time complexity
 
 | worst  | best       | average    |
